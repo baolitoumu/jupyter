@@ -40,7 +40,7 @@ DOWNLOAD_DELAY = 1.5
 CONCURRENT_REQUESTS_PER_IP = 2
 
 # Disable cookies (enabled by default)
-COOKIES_ENABLED = False
+COOKIES_ENABLED = True
 COOKIES_DEBUG =True
 
 # Disable Telnet Console (enabled by default)
@@ -72,9 +72,12 @@ DOWNLOADER_MIDDLEWARES = {
 
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
-#    'usecookie.pipelines.UsecookiePipeline': 300,
-#}
+ITEM_PIPELINES = {
+    'tool.pipelines.MySQLPipeline': 400,
+}
+
+
+
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://doc.scrapy.org/en/latest/topics/autothrottle.html
@@ -98,29 +101,10 @@ DOWNLOADER_MIDDLEWARES = {
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 
 
+#Mysql数据库的配置信息
+MYSQL_HOST = 'localhost'
+MYSQL_DBNAME = 'scrapy_db'         #数据库名字，请修改
+MYSQL_USER = 'root'             #数据库账号，请修改 
+MYSQL_PASSWD = 'shashuai'         #数据库密码，请修改
 
-ua = UserAgent()
-
-ua.ie
-# Mozilla/5.0 (Windows; U; MSIE 9.0; Windows NT 9.0; en-US);
-ua.msie
-# Mozilla/5.0 (compatible; MSIE 10.0; Macintosh; Intel Mac OS X 10_7_3; Trident/6.0)'
-ua['Internet Explorer']
-# Mozilla/5.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; GTB7.4; InfoPath.2; SV1; .NET CLR 3.3.69573; WOW64; en-US)
-ua.opera
-# Opera/9.80 (X11; Linux i686; U; ru) Presto/2.8.131 Version/11.11
-ua.chrome
-# Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.2 (KHTML, like Gecko) Chrome/22.0.1216.0 Safari/537.2'
-ua.google
-# Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/537.13 (KHTML, like Gecko) Chrome/24.0.1290.1 Safari/537.13
-ua['google chrome']
-# Mozilla/5.0 (X11; CrOS i686 2268.111.0) AppleWebKit/536.11 (KHTML, like Gecko) Chrome/20.0.1132.57 Safari/536.11
-ua.firefox
-# Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:16.0.1) Gecko/20121011 Firefox/16.0.1
-ua.ff
-# Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:15.0) Gecko/20100101 Firefox/15.0.1
-ua.safari
-# Mozilla/5.0 (iPad; CPU OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5355d Safari/8536.25
-
-# and the best one, random via real world browser usage statistic
-ua.random
+MYSQL_PORT = 3306               #数据库端口，在dbhelper中使用

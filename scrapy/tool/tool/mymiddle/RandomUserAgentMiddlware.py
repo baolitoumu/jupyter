@@ -4,8 +4,8 @@ import base64
 from scrapy.http.cookies import CookieJar
 
 proxyServer = "http-dyn.abuyun.com:9020"
-proxyUser = "H73D894898XDG2VD"
-proxyPass = "6902D1826CCEE2A5"
+proxyUser = "H4FS0V178JV3X62D"
+proxyPass = "DE8EABD07C0A127A"
 proxyAuth = "Basic " + base64.urlsafe_b64encode(bytes((proxyUser + ":" + proxyPass), "ascii")).decode("utf8")
 
 from fake_useragent import UserAgent
@@ -29,9 +29,9 @@ class RandomUserAgentMiddlware(object):
         print  (get_ua())
         request.headers.setdefault('User-Agent', get_ua())
         request.headers['User-Agent'] = get_ua()
-        #request.meta["proxy"] = proxyServer
-        #request.headers["Proxy-Authorization"] = proxyAuth
-        request.meta['proxy'] = "proxy.baibianip.com:8000"
+        request.meta["proxy"] = proxyServer
+        request.headers["Proxy-Authorization"] = proxyAuth
+        #request.meta['proxy'] = "proxy.baibianip.com:8000"
         
         
         
@@ -40,6 +40,6 @@ class RandomUserAgentMiddlware(object):
         #request.meta["cookiejar"] = 'sadsad'
         
        # request.headers.setdefault('cookie', cookie())
-        request.meta["cookie"] = None
+        #request.meta["cookie"] = None
       #  request.meta['proxy'] = "proxy.baibianip.com:8000"
 

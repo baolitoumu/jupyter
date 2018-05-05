@@ -3,7 +3,7 @@ from scrapy import Selector
 from urllib import parse
 from scrapy.http import HtmlResponse
 import json
-import pdb   
+import pdb
 
 import random
 from tool.items import ToolItem 
@@ -422,9 +422,9 @@ class example(scrapy.Spider):
             item['item_commentUrl'] = jop['idle'][0]['item']['commentUrl']
             item['item_collectCount'] = jop['idle'][0]['item']['collectCount']
             item['item_title'] = jop['idle'][0]['item']['title'] 
+            print('itemitemitemitem',item)
             
-            
-            return item
+            yield item
         else:
             
             for json_page in range(json_pages):
@@ -517,9 +517,10 @@ class example(scrapy.Spider):
             item['item_commentUrl'] = jop['idle'][i]['item']['commentUrl']
             item['item_collectCount'] = jop['idle'][i]['item']['collectCount']
             item['item_title'] = jop['idle'][i]['item']['title'] 
+            print('开始返回内容。。。。。。。。。')
+            print(item)
             
-            
-            return item    
+            yield item    
         
         
         
