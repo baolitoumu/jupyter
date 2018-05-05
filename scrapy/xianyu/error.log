@@ -1,0 +1,453 @@
+2018-05-06 06:30:40 [scrapy.core.scraper] ERROR: Spider error processing <GET https://s.2.taobao.com/list/waterfall/waterfall.htm?wp=1&_ksTS=1515549364328_391&stype=1&catid=57556002&divisionId=445224&st_trust=1&q=1&ist=1> (referer: https://s.2.taobao.com/list/list.htm?catid=57556002&divisionId=445224&st_trust=1&q=1&ist=1)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/opt/jupyter/scrapy/xianyu/xianyu/spiders/xianyu.py", line 378, in parse_json
+    jop = json.loads(a)
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Invalid \escape: line 1 column 5477 (char 5476)
+2018-05-06 06:35:45 [scrapy.core.scraper] ERROR: Spider error processing <GET https://s.2.taobao.com/list/waterfall/waterfall.htm?wp=14&_ksTS=1515549364328_648&stype=1&catid=50100400&divisionId=440606&st_trust=1&q=1&ist=1> (referer: https://s.2.taobao.com/list/waterfall/waterfall.htm?wp=1&_ksTS=1515549364328_33&stype=1&catid=50100400&divisionId=440606&st_trust=1&q=1&ist=1)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/opt/jupyter/scrapy/xianyu/xianyu/spiders/xianyu.py", line 496, in parse_json_end
+    item['idleCount'] = jop['idleCount']
+IndexError: list index out of range
+2018-05-06 06:35:46 [scrapy.core.scraper] ERROR: Spider error processing <GET https://s.2.taobao.com/list/waterfall/waterfall.htm?wp=27&_ksTS=1515549364328_431&stype=1&catid=50100416&divisionId=440606&st_trust=1&q=1&ist=1> (referer: https://s.2.taobao.com/list/waterfall/waterfall.htm?wp=1&_ksTS=1515549364328_982&stype=1&catid=50100416&divisionId=440606&st_trust=1&q=1&ist=1)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/opt/jupyter/scrapy/xianyu/xianyu/spiders/xianyu.py", line 496, in parse_json_end
+    item['idleCount'] = jop['idleCount']
+IndexError: list index out of range
+2018-05-06 06:35:48 [scrapy.core.scraper] ERROR: Spider error processing <GET https://s.2.taobao.com/list/waterfall/waterfall.htm?wp=44&_ksTS=1515549364328_870&stype=1&catid=50100416&divisionId=440605&st_trust=1&q=1&ist=1> (referer: https://s.2.taobao.com/list/waterfall/waterfall.htm?wp=1&_ksTS=1515549364328_796&stype=1&catid=50100416&divisionId=440605&st_trust=1&q=1&ist=1)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/opt/jupyter/scrapy/xianyu/xianyu/spiders/xianyu.py", line 496, in parse_json_end
+    item['idleCount'] = jop['idleCount']
+IndexError: list index out of range
+2018-05-06 06:35:49 [scrapy.core.scraper] ERROR: Spider error processing <GET https://s.2.taobao.com/list/waterfall/waterfall.htm?wp=8&_ksTS=1515549364328_205&stype=1&catid=50100416&divisionId=440606&st_trust=1&q=1&ist=1> (referer: https://s.2.taobao.com/list/waterfall/waterfall.htm?wp=1&_ksTS=1515549364328_982&stype=1&catid=50100416&divisionId=440606&st_trust=1&q=1&ist=1)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/opt/jupyter/scrapy/xianyu/xianyu/spiders/xianyu.py", line 496, in parse_json_end
+    item['idleCount'] = jop['idleCount']
+IndexError: list index out of range
+2018-05-06 06:35:51 [scrapy.core.scraper] ERROR: Spider error processing <GET https://s.2.taobao.com/list/waterfall/waterfall.htm?wp=14&_ksTS=1515549364328_49&stype=1&catid=57546002&divisionId=440606&st_trust=1&q=1&ist=1> (referer: https://s.2.taobao.com/list/waterfall/waterfall.htm?wp=1&_ksTS=1515549364328_897&stype=1&catid=57546002&divisionId=440606&st_trust=1&q=1&ist=1)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/opt/jupyter/scrapy/xianyu/xianyu/spiders/xianyu.py", line 496, in parse_json_end
+    item['idleCount'] = jop['idleCount']
+IndexError: list index out of range
+2018-05-06 06:35:53 [scrapy.core.scraper] ERROR: Spider error processing <GET https://s.2.taobao.com/list/waterfall/waterfall.htm?wp=21&_ksTS=1515549364328_276&stype=1&catid=50100487&divisionId=440605&st_trust=1&q=1&ist=1> (referer: https://s.2.taobao.com/list/waterfall/waterfall.htm?wp=1&_ksTS=1515549364328_240&stype=1&catid=50100487&divisionId=440605&st_trust=1&q=1&ist=1)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/opt/jupyter/scrapy/xianyu/xianyu/spiders/xianyu.py", line 496, in parse_json_end
+    item['idleCount'] = jop['idleCount']
+IndexError: list index out of range
+2018-05-06 06:35:54 [scrapy.core.scraper] ERROR: Spider error processing <GET https://s.2.taobao.com/list/waterfall/waterfall.htm?wp=18&_ksTS=1515549364328_222&stype=1&catid=50100487&divisionId=440605&st_trust=1&q=1&ist=1> (referer: https://s.2.taobao.com/list/waterfall/waterfall.htm?wp=1&_ksTS=1515549364328_240&stype=1&catid=50100487&divisionId=440605&st_trust=1&q=1&ist=1)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/opt/jupyter/scrapy/xianyu/xianyu/spiders/xianyu.py", line 496, in parse_json_end
+    item['idleCount'] = jop['idleCount']
+IndexError: list index out of range
+2018-05-06 06:35:55 [scrapy.core.scraper] ERROR: Spider error processing <GET https://s.2.taobao.com/list/waterfall/waterfall.htm?wp=17&_ksTS=1515549364328_203&stype=1&catid=50100487&divisionId=440605&st_trust=1&q=1&ist=1> (referer: https://s.2.taobao.com/list/waterfall/waterfall.htm?wp=1&_ksTS=1515549364328_240&stype=1&catid=50100487&divisionId=440605&st_trust=1&q=1&ist=1)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/opt/jupyter/scrapy/xianyu/xianyu/spiders/xianyu.py", line 496, in parse_json_end
+    item['idleCount'] = jop['idleCount']
+IndexError: list index out of range
+2018-05-06 06:35:55 [scrapy.core.scraper] ERROR: Spider error processing <GET https://s.2.taobao.com/list/waterfall/waterfall.htm?wp=15&_ksTS=1515549364328_454&stype=1&catid=50100487&divisionId=440605&st_trust=1&q=1&ist=1> (referer: https://s.2.taobao.com/list/waterfall/waterfall.htm?wp=1&_ksTS=1515549364328_240&stype=1&catid=50100487&divisionId=440605&st_trust=1&q=1&ist=1)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/opt/jupyter/scrapy/xianyu/xianyu/spiders/xianyu.py", line 496, in parse_json_end
+    item['idleCount'] = jop['idleCount']
+IndexError: list index out of range
+2018-05-06 06:35:55 [scrapy.core.scraper] ERROR: Spider error processing <GET https://s.2.taobao.com/list/waterfall/waterfall.htm?wp=20&_ksTS=1515549364328_411&stype=1&catid=50100487&divisionId=440605&st_trust=1&q=1&ist=1> (referer: https://s.2.taobao.com/list/waterfall/waterfall.htm?wp=1&_ksTS=1515549364328_240&stype=1&catid=50100487&divisionId=440605&st_trust=1&q=1&ist=1)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/opt/jupyter/scrapy/xianyu/xianyu/spiders/xianyu.py", line 496, in parse_json_end
+    item['idleCount'] = jop['idleCount']
+IndexError: list index out of range
+2018-05-06 06:35:56 [scrapy.core.scraper] ERROR: Spider error processing <GET https://s.2.taobao.com/list/waterfall/waterfall.htm?wp=16&_ksTS=1515549364328_822&stype=1&catid=50100487&divisionId=440605&st_trust=1&q=1&ist=1> (referer: https://s.2.taobao.com/list/waterfall/waterfall.htm?wp=1&_ksTS=1515549364328_240&stype=1&catid=50100487&divisionId=440605&st_trust=1&q=1&ist=1)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/opt/jupyter/scrapy/xianyu/xianyu/spiders/xianyu.py", line 480, in parse_json_end
+    jop = json.loads(a)
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Invalid \escape: line 1 column 3007 (char 3006)
+2018-05-06 06:36:33 [scrapy.core.scraper] ERROR: Spider error processing <GET https://s.2.taobao.com/list/waterfall/waterfall.htm?wp=14&_ksTS=1515549364328_479&stype=1&catid=50100487&divisionId=440605&st_trust=1&q=1&ist=1> (referer: https://s.2.taobao.com/list/waterfall/waterfall.htm?wp=1&_ksTS=1515549364328_240&stype=1&catid=50100487&divisionId=440605&st_trust=1&q=1&ist=1)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/opt/jupyter/scrapy/xianyu/xianyu/spiders/xianyu.py", line 496, in parse_json_end
+    item['idleCount'] = jop['idleCount']
+IndexError: list index out of range
+2018-05-06 06:37:02 [scrapy.core.scraper] ERROR: Spider error processing <GET https://s.2.taobao.com/list/waterfall/waterfall.htm?wp=2&_ksTS=1515549364328_804&stype=1&catid=50100469&divisionId=440606&st_trust=1&q=1&ist=1> (referer: https://s.2.taobao.com/list/waterfall/waterfall.htm?wp=1&_ksTS=1515549364328_850&stype=1&catid=50100469&divisionId=440606&st_trust=1&q=1&ist=1)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/opt/jupyter/scrapy/xianyu/xianyu/spiders/xianyu.py", line 480, in parse_json_end
+    jop = json.loads(a)
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Invalid \escape: line 1 column 6517 (char 6516)
+2018-05-06 06:37:06 [scrapy.core.scraper] ERROR: Spider error processing <GET https://s.2.taobao.com/list/waterfall/waterfall.htm?wp=13&_ksTS=1515549364328_806&stype=1&catid=50100487&divisionId=440605&st_trust=1&q=1&ist=1> (referer: https://s.2.taobao.com/list/waterfall/waterfall.htm?wp=1&_ksTS=1515549364328_240&stype=1&catid=50100487&divisionId=440605&st_trust=1&q=1&ist=1)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/opt/jupyter/scrapy/xianyu/xianyu/spiders/xianyu.py", line 496, in parse_json_end
+    item['idleCount'] = jop['idleCount']
+IndexError: list index out of range
+2018-05-06 06:37:06 [scrapy.core.scraper] ERROR: Spider error processing <GET https://s.2.taobao.com/list/waterfall/waterfall.htm?wp=12&_ksTS=1515549364328_488&stype=1&catid=50100487&divisionId=440605&st_trust=1&q=1&ist=1> (referer: https://s.2.taobao.com/list/waterfall/waterfall.htm?wp=1&_ksTS=1515549364328_240&stype=1&catid=50100487&divisionId=440605&st_trust=1&q=1&ist=1)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/opt/jupyter/scrapy/xianyu/xianyu/spiders/xianyu.py", line 496, in parse_json_end
+    item['idleCount'] = jop['idleCount']
+IndexError: list index out of range
+2018-05-06 06:37:07 [scrapy.core.scraper] ERROR: Spider error processing <GET https://s.2.taobao.com/list/waterfall/waterfall.htm?wp=9&_ksTS=1515549364328_236&stype=1&catid=50100487&divisionId=440605&st_trust=1&q=1&ist=1> (referer: https://s.2.taobao.com/list/waterfall/waterfall.htm?wp=1&_ksTS=1515549364328_240&stype=1&catid=50100487&divisionId=440605&st_trust=1&q=1&ist=1)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/opt/jupyter/scrapy/xianyu/xianyu/spiders/xianyu.py", line 496, in parse_json_end
+    item['idleCount'] = jop['idleCount']
+IndexError: list index out of range
+2018-05-06 06:37:08 [scrapy.core.scraper] ERROR: Spider error processing <GET https://s.2.taobao.com/list/waterfall/waterfall.htm?wp=11&_ksTS=1515549364328_818&stype=1&catid=50100487&divisionId=440605&st_trust=1&q=1&ist=1> (referer: https://s.2.taobao.com/list/waterfall/waterfall.htm?wp=1&_ksTS=1515549364328_240&stype=1&catid=50100487&divisionId=440605&st_trust=1&q=1&ist=1)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/opt/jupyter/scrapy/xianyu/xianyu/spiders/xianyu.py", line 496, in parse_json_end
+    item['idleCount'] = jop['idleCount']
+IndexError: list index out of range
+2018-05-06 06:37:08 [scrapy.core.scraper] ERROR: Spider error processing <GET https://s.2.taobao.com/list/waterfall/waterfall.htm?wp=7&_ksTS=1515549364328_139&stype=1&catid=50100487&divisionId=440605&st_trust=1&q=1&ist=1> (referer: https://s.2.taobao.com/list/waterfall/waterfall.htm?wp=1&_ksTS=1515549364328_240&stype=1&catid=50100487&divisionId=440605&st_trust=1&q=1&ist=1)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/opt/jupyter/scrapy/xianyu/xianyu/spiders/xianyu.py", line 496, in parse_json_end
+    item['idleCount'] = jop['idleCount']
+IndexError: list index out of range
+2018-05-06 06:37:09 [scrapy.core.scraper] ERROR: Spider error processing <GET https://s.2.taobao.com/list/waterfall/waterfall.htm?wp=5&_ksTS=1515549364328_796&stype=1&catid=50100487&divisionId=440605&st_trust=1&q=1&ist=1> (referer: https://s.2.taobao.com/list/waterfall/waterfall.htm?wp=1&_ksTS=1515549364328_240&stype=1&catid=50100487&divisionId=440605&st_trust=1&q=1&ist=1)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/opt/jupyter/scrapy/xianyu/xianyu/spiders/xianyu.py", line 496, in parse_json_end
+    item['idleCount'] = jop['idleCount']
+IndexError: list index out of range
+2018-05-06 06:37:09 [scrapy.core.scraper] ERROR: Spider error processing <GET https://s.2.taobao.com/list/waterfall/waterfall.htm?wp=8&_ksTS=1515549364328_566&stype=1&catid=50100487&divisionId=440605&st_trust=1&q=1&ist=1> (referer: https://s.2.taobao.com/list/waterfall/waterfall.htm?wp=1&_ksTS=1515549364328_240&stype=1&catid=50100487&divisionId=440605&st_trust=1&q=1&ist=1)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/opt/jupyter/scrapy/xianyu/xianyu/spiders/xianyu.py", line 496, in parse_json_end
+    item['idleCount'] = jop['idleCount']
+IndexError: list index out of range
+2018-05-06 06:37:10 [scrapy.core.scraper] ERROR: Spider error processing <GET https://s.2.taobao.com/list/waterfall/waterfall.htm?wp=3&_ksTS=1515549364328_652&stype=1&catid=50100487&divisionId=440605&st_trust=1&q=1&ist=1> (referer: https://s.2.taobao.com/list/waterfall/waterfall.htm?wp=1&_ksTS=1515549364328_240&stype=1&catid=50100487&divisionId=440605&st_trust=1&q=1&ist=1)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/opt/jupyter/scrapy/xianyu/xianyu/spiders/xianyu.py", line 496, in parse_json_end
+    item['idleCount'] = jop['idleCount']
+IndexError: list index out of range
+2018-05-06 06:37:10 [scrapy.core.scraper] ERROR: Spider error processing <GET https://s.2.taobao.com/list/waterfall/waterfall.htm?wp=6&_ksTS=1515549364328_5&stype=1&catid=50100487&divisionId=440605&st_trust=1&q=1&ist=1> (referer: https://s.2.taobao.com/list/waterfall/waterfall.htm?wp=1&_ksTS=1515549364328_240&stype=1&catid=50100487&divisionId=440605&st_trust=1&q=1&ist=1)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/opt/jupyter/scrapy/xianyu/xianyu/spiders/xianyu.py", line 496, in parse_json_end
+    item['idleCount'] = jop['idleCount']
+IndexError: list index out of range
+2018-05-06 06:37:10 [scrapy.core.scraper] ERROR: Spider error processing <GET https://s.2.taobao.com/list/waterfall/waterfall.htm?wp=1&_ksTS=1515549364328_383&stype=1&catid=50100487&divisionId=440605&st_trust=1&q=1&ist=1> (referer: https://s.2.taobao.com/list/waterfall/waterfall.htm?wp=1&_ksTS=1515549364328_240&stype=1&catid=50100487&divisionId=440605&st_trust=1&q=1&ist=1)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/opt/jupyter/scrapy/xianyu/xianyu/spiders/xianyu.py", line 496, in parse_json_end
+    item['idleCount'] = jop['idleCount']
+IndexError: list index out of range
+2018-05-06 06:37:13 [scrapy.core.scraper] ERROR: Spider error processing <GET https://s.2.taobao.com/list/waterfall/waterfall.htm?wp=0&_ksTS=1515549364328_202&stype=1&catid=50100487&divisionId=440605&st_trust=1&q=1&ist=1> (referer: https://s.2.taobao.com/list/waterfall/waterfall.htm?wp=1&_ksTS=1515549364328_240&stype=1&catid=50100487&divisionId=440605&st_trust=1&q=1&ist=1)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/opt/jupyter/scrapy/xianyu/xianyu/spiders/xianyu.py", line 496, in parse_json_end
+    item['idleCount'] = jop['idleCount']
+IndexError: list index out of range
+2018-05-06 06:37:13 [scrapy.core.scraper] ERROR: Spider error processing <GET https://s.2.taobao.com/list/waterfall/waterfall.htm?wp=19&_ksTS=1515549364328_842&stype=1&catid=50100487&divisionId=440605&st_trust=1&q=1&ist=1> (referer: https://s.2.taobao.com/list/waterfall/waterfall.htm?wp=1&_ksTS=1515549364328_240&stype=1&catid=50100487&divisionId=440605&st_trust=1&q=1&ist=1)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/opt/jupyter/scrapy/xianyu/xianyu/spiders/xianyu.py", line 496, in parse_json_end
+    item['idleCount'] = jop['idleCount']
+IndexError: list index out of range
+2018-05-06 06:37:14 [scrapy.core.scraper] ERROR: Spider error processing <GET https://s.2.taobao.com/list/waterfall/waterfall.htm?wp=2&_ksTS=1515549364328_172&stype=1&catid=50100487&divisionId=440605&st_trust=1&q=1&ist=1> (referer: https://s.2.taobao.com/list/waterfall/waterfall.htm?wp=1&_ksTS=1515549364328_240&stype=1&catid=50100487&divisionId=440605&st_trust=1&q=1&ist=1)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/opt/jupyter/scrapy/xianyu/xianyu/spiders/xianyu.py", line 496, in parse_json_end
+    item['idleCount'] = jop['idleCount']
+IndexError: list index out of range
+2018-05-06 06:37:15 [scrapy.core.scraper] ERROR: Spider error processing <GET https://s.2.taobao.com/list/waterfall/waterfall.htm?wp=10&_ksTS=1515549364328_746&stype=1&catid=50100487&divisionId=440605&st_trust=1&q=1&ist=1> (referer: https://s.2.taobao.com/list/waterfall/waterfall.htm?wp=1&_ksTS=1515549364328_240&stype=1&catid=50100487&divisionId=440605&st_trust=1&q=1&ist=1)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/opt/jupyter/scrapy/xianyu/xianyu/spiders/xianyu.py", line 496, in parse_json_end
+    item['idleCount'] = jop['idleCount']
+IndexError: list index out of range
+2018-05-06 06:37:16 [scrapy.core.scraper] ERROR: Spider error processing <GET https://s.2.taobao.com/list/waterfall/waterfall.htm?wp=4&_ksTS=1515549364328_523&stype=1&catid=50100487&divisionId=440605&st_trust=1&q=1&ist=1> (referer: https://s.2.taobao.com/list/waterfall/waterfall.htm?wp=1&_ksTS=1515549364328_240&stype=1&catid=50100487&divisionId=440605&st_trust=1&q=1&ist=1)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python3.5/dist-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/opt/jupyter/scrapy/xianyu/xianyu/spiders/xianyu.py", line 496, in parse_json_end
+    item['idleCount'] = jop['idleCount']
+IndexError: list index out of range
