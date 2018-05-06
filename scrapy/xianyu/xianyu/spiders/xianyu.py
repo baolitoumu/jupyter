@@ -32,7 +32,7 @@ class example(scrapy.Spider):
         
         for i in sj:
             item = XianyuItem()
-            q = '1'
+            q = '索尼'
             
             city_code = i["code"]  
             url ='https://s.2.taobao.com/list/list.htm?_input_charset=utf8&q='+q+'&divisionId='+city_code
