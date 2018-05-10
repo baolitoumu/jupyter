@@ -32,7 +32,7 @@ class example(scrapy.Spider):
         
         for i in sj:
             item = XianyuItem()
-            q = '索尼'
+            q = 'sony'
             
             city_code = i["code"]  
             url ='https://s.2.taobao.com/list/list.htm?_input_charset=utf8&q='+q+'&divisionId='+city_code
@@ -63,6 +63,7 @@ class example(scrapy.Spider):
         #一级分类的名称
         titles = response.xpath("//*[@class='sub-category']/em/text()").extract()
         item_1 = response.meta['item_0']
+        print(titles)
         for page,title in zip(page_url, titles): 
             item = XianyuItem()
             #在循环里对item进行实例化，类型为字典

@@ -98,23 +98,23 @@ class TestDBHelper():
         self.dbHelper.createDatabase() 
     #测试创建表
     def testCreateTable(self):
-        sql="create table one(id int primary key auto_increment,city_code int(10),city_name varchar(200), city_name_province varchar(200), city_url varchar(200), currPage int(10), district varchar(200), district_url varchar(200),ershou int(10),ershouCount int(10),final_url varchar(200),firstlevel_title varchar(200),firstlevel_url varchar(200),idleCount varchar(200),item_From varchar(200),item_FromDesc varchar(200),item_FromTarget varchar(200),item_Url varchar(200),item_collectCount varchar(200),item_commentCount varchar(200),item_commentUrl varchar(200),item_describe varchar(200),item_imageHeight varchar(200),item_imageUrl varchar(200),item_imageWidth varchar(200),item_isBrandNew varchar(200),item_orgPrice varchar(200),item_price varchar(200),item_provcity varchar(200),item_publishTime varchar(200),item_title varchar(200),numFound varchar(200),threelevel varchar(200),threelevel_url varchar(200),totalPage varchar(200),twolevel varchar(200),twolevel_url varchar(200),user_CreditUrl varchar(200),user_Icon varchar(200),user_ItemsUrl varchar(200),user_Nick varchar(200),user_TypeId int(3),user_isSinaV int(3),user_isTaobaoWomen int(3),user_taobaoWomenUrl varchar(200),user_vipLevel varchar(200),user_yellowSeller varchar(200),word varchar(200))"
+        sql="create table sony(id int primary key auto_increment,city_code int(10),city_name varchar(200), city_name_province varchar(200), city_url varchar(200), currPage int(10), district varchar(200), district_url varchar(200),ershou int(10),ershouCount int(10),final_url varchar(200),firstlevel_title varchar(200),firstlevel_url varchar(200),idleCount varchar(200),item_From varchar(200),item_FromDesc varchar(200),item_FromTarget varchar(200),item_Url varchar(200),item_collectCount varchar(200),item_commentCount varchar(200),item_commentUrl varchar(200),item_describe varchar(200),item_imageHeight varchar(200),item_imageUrl varchar(200),item_imageWidth varchar(200),item_isBrandNew varchar(200),item_orgPrice varchar(200),item_price varchar(200),item_provcity varchar(200),item_publishTime varchar(200),item_title varchar(200),numFound varchar(200),threelevel varchar(200),threelevel_url varchar(200),totalPage varchar(200),twolevel varchar(200),twolevel_url varchar(200),user_CreditUrl varchar(200),user_Icon varchar(200),user_ItemsUrl varchar(200),user_Nick varchar(200),user_TypeId int(3),user_isSinaV int(3),user_isTaobaoWomen int(3),user_taobaoWomenUrl varchar(200),user_vipLevel varchar(200),user_yellowSeller varchar(200),word varchar(200))"
 
         
         self.dbHelper.createTable(sql)
     #测试插入
     def testInsert(self):
-        sql="insert into one(name,url) values(%s,%s)"
+        sql="insert into sony(name,url) values(%s,%s)"
         params=("test","test")
         self.dbHelper.insert(sql,*params) #  *表示拆分元组，调用insert（*params）会重组成元组
     def testUpdate(self):
-        sql="update one set name=%s,url=%s where id=%s"
-        params=("update","update","one")
+        sql="update sony set name=%s,url=%s where id=%s"
+        params=("update","update","sony")
         self.dbHelper.update(sql,*params)
     
     def testDelete(self):
-        sql="delete from one where id=%s"
-        params=("one")
+        sql="delete from sony where id=%s"
+        params=("sony")
         self.dbHelper.delete(sql,*params)
     
 if __name__=="__main__":

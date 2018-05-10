@@ -13,7 +13,7 @@ BOT_NAME = 'xianyu'
 
 SPIDER_MODULES = ['xianyu.spiders']
 NEWSPIDER_MODULE = 'xianyu.spiders'
-REDIRECT_ENABLED = False
+#REDIRECT_ENABLED = False
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'xianyu (+http://proxy.baibianip.com:8000)'
@@ -40,9 +40,9 @@ COOKIES_DEBUG = False
 
 # Override the default request headers:
 
-DEFAULT_REQUEST_HEADERS = {'User-Agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
-               'Accept-Encoding':'gzip, deflate, br',
-               'Connection':'close'}
+DOWNLOADER_MIDDLEWARES = {
+   'xianyu.middlewares.ChromeDownloaderMiddleware': 543,
+}
 
 
 # Enable or disable spider middlewares
@@ -50,30 +50,21 @@ DEFAULT_REQUEST_HEADERS = {'User-Agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWe
 #SPIDER_MIDDLEWARES = {
 #    'xianyu.middlewares.XianyuSpiderMiddleware': 543,
 #}
-LOG_FILE = "error.log" #默认: None，在当前目录里创建logging输出文件的文件名
-LOG_LEVEL = "ERROR" #'DEBUG'，log的最低级别
-LOG_ENABLED = True #默认: True，启用logging
-LOG_ENCODING = 'utf-8' #默认: 'utf-8'，logging使用的编码
-LOG_STDOUT = False #默认: False 如果为 True，进程所有的标准输出(及错误)将会被重定向到log中。例如，执行 print "hello" ，其将会在Scrapy log中显示
+#LOG_FILE = "error.log" #默认: None，在当前目录里创建logging输出文件的文件名
+#LOG_LEVEL = "ERROR" #'DEBUG'，log的最低级别
+#LOG_ENABLED = True #默认: True，启用logging
+#LOG_ENCODING = 'utf-8' #默认: 'utf-8'，logging使用的编码
+#LOG_STDOUT = False #默认: False 如果为 True，进程所有的标准输出(及错误)将会被重定向到log中。例如，执行 print "hello" ，其将会在Scrapy log中显示
 
-DOWNLOADER_MIDDLEWARES = {
-    'xianyu.middlewares.XianyuDownloaderMiddleware': 543,
-}
-
-# Enable or disable downloader middlewares
-# See https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
-#DOWNLOADER_MIDDLEWARES = {
-#    'xianyu.middlewares.XianyuDownloaderMiddleware': 543,
-#}
 
 # Enable or disable extensions
 # See https://doc.scrapy.org/en/latest/topics/extensions.html
 #EXTENSIONS = {
 #    'scrapy.extensions.telnet.TelnetConsole': None,
 #}
-RETRY_ENABLED = True
-RETRY_HTTP_CODES = [500, 503, 504, 400, 403, 404, 408,302]
-RETRY_TIMES = 10
+#RETRY_ENABLED = True
+#RETRY_HTTP_CODES = [500, 503, 504, 400, 403, 404, 408,302]
+#RETRY_TIMES = 10
 
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html

@@ -57,7 +57,7 @@ class XianyuPipeline(object):
         #print item['name']
         
 
-        sql="insert into one(city_code,city_name,city_name_province,city_url,currPage,district,district_url,ershou,ershouCount,final_url,firstlevel_title,firstlevel_url,idleCount,item_From,item_FromDesc,item_FromTarget,item_Url,item_collectCount,item_commentCount,item_commentUrl,item_describe,item_imageHeight,item_imageUrl,item_imageWidth,item_isBrandNew,item_orgPrice,item_price,item_provcity,item_publishTime,item_title,numFound,threelevel,threelevel_url,totalPage,twolevel,twolevel_url,user_CreditUrl,user_Icon,user_ItemsUrl,user_Nick,user_TypeId,user_isSinaV,user_isTaobaoWomen,user_taobaoWomenUrl,user_vipLevel,user_yellowSeller,word) values(%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)"  
+        sql="insert into sony(city_code,city_name,city_name_province,city_url,currPage,district,district_url,ershou,ershouCount,final_url,firstlevel_title,firstlevel_url,idleCount,item_From,item_FromDesc,item_FromTarget,item_Url,item_collectCount,item_commentCount,item_commentUrl,item_describe,item_imageHeight,item_imageUrl,item_imageWidth,item_isBrandNew,item_orgPrice,item_price,item_provcity,item_publishTime,item_title,numFound,threelevel,threelevel_url,totalPage,twolevel,twolevel_url,user_CreditUrl,user_Icon,user_ItemsUrl,user_Nick,user_TypeId,user_isSinaV,user_isTaobaoWomen,user_taobaoWomenUrl,user_vipLevel,user_yellowSeller,word) values(%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)"  
         
         if not item['ershou']:
             item['ershou']=0

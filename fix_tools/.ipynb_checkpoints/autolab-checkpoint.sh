@@ -2,11 +2,11 @@ sudo apt-get -y update
 apt install -y python3-setuptools
 apt install -y python-setuptools
 easy_install pip
-
+sudo apt-get -y install unzip
 sudo apt-get -y upgrade
 sudo apt-get -y install python3-pip
 pip install --upgrade pip==9.0.3
-
+pip3 install pip3 install selenium
 
 
 sudo apt-get install -y build-essential libncursesw5-dev libreadline6-dev libssl-dev libgdbm-dev libc6-dev libsqlite3-dev tk-dev bzip2 libbz2-dev
@@ -74,7 +74,12 @@ cd opt
 git clone https://github.com/baolitoumu/jupyter.git
 pip3 install jupyter
 pip3 install jupyterlab
-
+sudo apt-get -y -f install
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt-get -y dpkg -i google-chrome-stable_current_amd64.deb
+sudo apt-get -y install libxss1 libappindicator1 libindicator7
+pip3 install pyvirtualdisplay
+sudo apt-get -y install xvfb
 jupyter notebook --generate-config
 
 echo "[Unit]" >> /etc/systemd/system/jupyter.service
@@ -114,3 +119,11 @@ sudo systemctl enable jupyter.service
 sudo systemctl daemon-reload
 sudo systemctl restart jupyter.service
 systemctl -a | grep jupyter
+
+echo "当前已安装chrome版本为："
+google-chrome --version
+echo "正在安装chromedirver 2.38版本，与chrome v66对应："
+cd /usr/bin/
+wget -N https://chromedriver.storage.googleapis.com/2.38/chromedriver_linux64.zip
+unzip chromedriver_linux64.zip
+rm -rf chromedriver_linux64.zip

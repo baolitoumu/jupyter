@@ -10,7 +10,7 @@ import random
 from urllib.parse import quote
 def xian_url(wp,catid,divisionId):
         
-        q='索尼'
+        q='sony'
         q = quote(q.encode("gbk"))
         wp = str(wp)
         catid = str(catid)
