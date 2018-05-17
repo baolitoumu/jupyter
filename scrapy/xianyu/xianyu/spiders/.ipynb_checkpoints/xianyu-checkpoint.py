@@ -57,13 +57,13 @@ class example(scrapy.Spider):
         #print("城市分类item",item_1)
         #先定义一个空列表
         items=[]
-        #解析返回的网页数据
-        #一级分类的url 
-        page_url = response.xpath("//*[@class='sub-category']/@href").extract()
+
+        contant = response.body.decode('utf-8')
+        page_url = Selector(text=contant).xpath("//*[@class='sub-category']/@href").extract()
         #一级分类的名称
-        titles = response.xpath("//*[@class='sub-category']/em/text()").extract()
+        titles = Selector(text=contant).xpath("//*[@class='sub-category']/em/text()").extract()
         item_1 = response.meta['item_0']
-        print(titles)
+        
         for page,title in zip(page_url, titles): 
             item = XianyuItem()
             #在循环里对item进行实例化，类型为字典
@@ -95,7 +95,9 @@ class example(scrapy.Spider):
         #再次定义空列表，用来保存上一层的数据和本层的数据
         #print("一级分类item",item_1)
         items=[]
-        pages =  response.xpath("//html")
+        contant = response.body.decode('utf-8')
+        pages = Selector(text=contant).xpath("//html")
+        
 
         
         for i in pages:
@@ -172,7 +174,9 @@ class example(scrapy.Spider):
         items=[]
         
         #下载三级类目的链接，如果没有就下载城市内区的链接
-        pages =  response.xpath("//html")
+        contant = response.body.decode('utf-8')
+        pages = Selector(text=contant).xpath("//html")
+        
 #         print('二级 ',pages)
         
         for i in pages:
@@ -256,7 +260,9 @@ class example(scrapy.Spider):
         #print("三级分类item",item_1)
         #再次定义空列表，用来保存上一层的数据和本层的数据
         items=[]
-        pages =  response.xpath("//html")
+        #下载三级类目的链接，如果没有就下载城市内区的链接
+        contant = response.body.decode('utf-8')
+        pages = Selector(text=contant).xpath("//html")
         
         for i in pages:
             
@@ -372,7 +378,14 @@ class example(scrapy.Spider):
                     
         item['final_url'] =  item_1['final_url']
         
-        a = re.sub('[\r\n\t]', '', response.body_as_unicode())
+        
+        
+        contant = response.body.decode('utf-8')
+        
+        a = contant.replace('<html xmlns="http://www.w3.org/1999/xhtml"><head></head><body>','')
+        a = a.replace('</body></html>','')
+        a = re.sub('[\r\n\t]', '', a)
+        print(a)
         a=a.rstrip(")")
         a=a.lstrip("(")
         #jop = json.loads(a.lstrip("jsonp143("))
@@ -474,7 +487,11 @@ class example(scrapy.Spider):
                     
         item['final_url'] =  item_1['final_url']
         
-        a = re.sub('[\r\n\t]', '', response.body_as_unicode())
+        contant = response.body.decode('utf-8')
+        
+        a = contant.replace('<html xmlns="http://www.w3.org/1999/xhtml"><head></head><body>','')
+        a = a.replace('</body></html>','')
+        a = re.sub('[\r\n\t]', '', a)
         a=a.rstrip(")")
         a=a.lstrip("(")
         #jop = json.loads(a.lstrip("jsonp143("))

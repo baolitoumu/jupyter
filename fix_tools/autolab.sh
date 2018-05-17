@@ -76,7 +76,7 @@ pip3 install jupyter
 pip3 install jupyterlab
 sudo apt-get -y -f install
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-sudo apt-get -y dpkg -i google-chrome-stable_current_amd64.deb
+sudo -y dpkg -i google-chrome-stable_current_amd64.deb
 sudo apt-get -y install libxss1 libappindicator1 libindicator7
 pip3 install pyvirtualdisplay
 sudo apt-get -y install xvfb
