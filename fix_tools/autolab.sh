@@ -4,14 +4,15 @@ apt install -y python-setuptools
 easy_install pip
 sudo apt-get -y install unzip
 sudo apt-get -y upgrade
-sudo apt-get -y install python3-pip
-pip install --upgrade pip==9.0.3
+apt install python3-pip
+pip3 install --upgrade pip==9.0.3
+
 pip3 install pip3 install selenium
 
 
 sudo apt-get install -y build-essential libncursesw5-dev libreadline6-dev libssl-dev libgdbm-dev libc6-dev libsqlite3-dev tk-dev bzip2 libbz2-dev
 sudo apt-get -y install cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev
-sudo apt-get -y install python-dev
+sudo apt-get -y install python-dev  
 y
 sudo apt-get -y install python3-dev 
 sudo apt-get -y install autoconf automake libtool
@@ -28,10 +29,10 @@ sudo apt-get -y install python-numpy
 sudo apt-get -y install python3-numpy
 sudo pip3 install matplotlib
 sudo pip3 install pandas
-pip3 install scrapy
+#pip3 install scrapy
 sudo pip3 install pyocr
 apt-get -y install   git libssl-dev libffi-dev 
-pip3 install --upgrade pwntools
+#pip3 install --upgrade pwntools
 sudo apt-get -y install libtbb2 
 sudo apt-get -y install libtbb-dev 
 
@@ -47,7 +48,7 @@ sudo apt-get -y install install aptitude
 sudo apt-get -y install libreadline-dev  
 
 sudo apt-get -y install libjpeg8-dev libtiff5-dev libjasper-dev libpng12-dev
-sudo pip3 install pytorch
+#sudo pip3 install pytorch
 sudo apt-get -y install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev
 sudo apt-get -y install libxvidcore-dev libx264-dev
 sudo apt-get -y install libpython3-dev libpython3.5-dev python3-dev python3-setuptools python3-wheel python3.5-dev
