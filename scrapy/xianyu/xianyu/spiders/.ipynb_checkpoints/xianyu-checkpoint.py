@@ -6,7 +6,7 @@ import json
 import pdb
 
 import random
-from xianyu.items import XianyuItem 
+from proxy.items import ProxyItem
 from urllib.parse import quote
 import re
 import sys
@@ -31,7 +31,7 @@ class example(scrapy.Spider):
             
         
         for i in sj:
-            item = XianyuItem()
+            item = ProxyItem()
             q = 'sony'
             
             city_code = i["code"]  
