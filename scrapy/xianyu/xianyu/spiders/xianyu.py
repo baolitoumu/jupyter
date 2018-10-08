@@ -26,7 +26,7 @@ class example(scrapy.Spider):
         f = open("city.txt")  
         sj = json.load(f)
         sj = sj["city"]
-        
+            
             
             
         

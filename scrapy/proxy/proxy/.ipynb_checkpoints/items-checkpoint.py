@@ -11,6 +11,7 @@ import scrapy
 class ProxyItem(scrapy.Item):
     word = scrapy.Field()
     search_url = scrapy.Field()
+    page_num = scrapy.Field() 
     city_code = scrapy.Field()
     city_name = scrapy.Field()
     city_name_province = scrapy.Field()
