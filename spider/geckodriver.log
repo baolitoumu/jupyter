@@ -4700,3 +4700,470 @@ JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-968167707, li
 1537346568555	addons.manager	DEBUG	Background update check complete
 1537369357865	addons.manager	DEBUG	Background update check beginning
 1537369357865	addons.manager	DEBUG	Background update check complete
+1538754446261	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.VuYyASX4WE76"
+
+(firefox:1050): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Failed to execute child process "dbus-launch" (No such file or directory)
+1538754449037	Marionette	INFO	Listening on port 57731
+1538754449477	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538754449514	Marionette	DEBUG	[2147483649] Frame script loaded
+1538754449515	Marionette	DEBUG	[2147483649] Frame script registered
+1538754449532	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538754452632	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1538754459162	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://ip.cn/
+1538754459906	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://ip.cn/
+1538754459960	Marionette	INFO	Stopped listening on port 57731
+1538778353926	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.2MpPjnakcvj8"
+
+(firefox:1338): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Failed to execute child process "dbus-launch" (No such file or directory)
+1538778355864	Marionette	INFO	Listening on port 59270
+1538778356037	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538778356082	Marionette	DEBUG	[2147483649] Frame script loaded
+1538778356083	Marionette	DEBUG	[2147483649] Frame script registered
+1538778356108	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+
+(/usr/lib/firefox/firefox:1456): Gdk-WARNING **: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1025.
+
+
+(/usr/lib/firefox/firefox:1536): Gdk-WARNING **: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1025.
+
+1538778370554	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.v0xCpqORyimZ"
+
+(firefox:1580): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Failed to execute child process "dbus-launch" (No such file or directory)
+1538778372409	Marionette	INFO	Listening on port 59288
+1538778372669	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538778372711	Marionette	DEBUG	[2147483649] Frame script loaded
+1538778372718	Marionette	DEBUG	[2147483649] Frame script registered
+1538778372731	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538778373860	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538778373864	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1538778373909	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for about:neterror?e=proxyConnectFailure&u=https%3A//ip.cn/&c=UTF-8&f=regular&d=Firefox%20is%20configured%20to%20use%20a%20proxy%20server%20that%20is%20refusing%20connections.
+
+(/usr/lib/firefox/firefox:1696): Gdk-WARNING **: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1023.
+
+
+(/usr/lib/firefox/firefox:1773): Gdk-WARNING **: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1023.
+
+1538778376755	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.6ujfOeaUhLw1"
+
+(firefox:1820): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Failed to execute child process "dbus-launch" (No such file or directory)
+1538778378610	Marionette	INFO	Listening on port 59306
+1538778378866	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538778378912	Marionette	DEBUG	[2147483649] Frame script loaded
+1538778378916	Marionette	DEBUG	[2147483649] Frame script registered
+1538778378931	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538778380076	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538778380081	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1538778380147	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for about:neterror?e=proxyConnectFailure&u=https%3A//ip.cn/&c=UTF-8&f=regular&d=Firefox%20is%20configured%20to%20use%20a%20proxy%20server%20that%20is%20refusing%20connections.
+1538779168898	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.UVOb8h5rUbro"
+
+(firefox:2152): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Failed to execute child process "dbus-launch" (No such file or directory)
+1538779170780	Marionette	INFO	Listening on port 60356
+1538779171014	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538779171052	Marionette	DEBUG	[2147483649] Frame script loaded
+1538779171053	Marionette	DEBUG	[2147483649] Frame script registered
+1538779171088	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538779172239	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538779172244	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1538779172298	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for about:neterror?e=proxyConnectFailure&u=https%3A//ip.cn/&c=UTF-8&f=regular&d=Firefox%20is%20configured%20to%20use%20a%20proxy%20server%20that%20is%20refusing%20connections.
+1538779210868	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.urtWMnMItL7G"
+
+(firefox:2398): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Failed to execute child process "dbus-launch" (No such file or directory)
+1538779212726	Marionette	INFO	Listening on port 60392
+1538779212987	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538779213029	Marionette	DEBUG	[2147483649] Frame script loaded
+1538779213030	Marionette	DEBUG	[2147483649] Frame script registered
+1538779213041	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538779214224	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538779214229	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1538779214281	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for about:neterror?e=proxyConnectFailure&u=https%3A//ip.cn/&c=UTF-8&f=regular&d=Firefox%20is%20configured%20to%20use%20a%20proxy%20server%20that%20is%20refusing%20connections.
+1538779225206	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.bORjT9NU80i6"
+
+(firefox:2639): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Failed to execute child process "dbus-launch" (No such file or directory)
+1538779227059	Marionette	INFO	Listening on port 60416
+1538779227316	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538779227355	Marionette	DEBUG	[2147483649] Frame script loaded
+1538779227356	Marionette	DEBUG	[2147483649] Frame script registered
+1538779227375	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538779227991	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538779227993	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1538779228022	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for about:neterror?e=nssFailure2&u=https%3A//ip.cn/&c=UTF-8&f=regular&d=The%20connection%20to%20the%20server%20was%20reset%20while%20the%20page%20was%20loading.
+1538779249242	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.jhKfNZMsAs3y"
+
+(firefox:2892): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Failed to execute child process "dbus-launch" (No such file or directory)
+1538779251077	Marionette	INFO	Listening on port 60466
+1538779251356	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538779251403	Marionette	DEBUG	[2147483649] Frame script loaded
+1538779251403	Marionette	DEBUG	[2147483649] Frame script registered
+1538779251422	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538779272450	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538779272455	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1538779272502	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for about:neterror?e=proxyConnectFailure&u=https%3A//ip.cn/&c=UTF-8&f=regular&d=Firefox%20is%20configured%20to%20use%20a%20proxy%20server%20that%20is%20refusing%20connections.
+1538779304811	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.zprGjG4TWgJ1"
+
+(firefox:3145): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Failed to execute child process "dbus-launch" (No such file or directory)
+1538779306772	Marionette	INFO	Listening on port 60511
+1538779306925	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538779306966	Marionette	DEBUG	[2147483649] Frame script loaded
+1538779306967	Marionette	DEBUG	[2147483649] Frame script registered
+1538779306986	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538779316249	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1538779344155	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://ip.cn/
+1538779363067	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://ip.cn/
+1538779363147	Marionette	INFO	Stopped listening on port 60511
+1538779392423	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.0dKhsa9rh5dE"
+
+(firefox:3426): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Failed to execute child process "dbus-launch" (No such file or directory)
+1538779394343	Marionette	INFO	Listening on port 60576
+1538779394542	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538779394583	Marionette	DEBUG	[2147483649] Frame script loaded
+1538779394584	Marionette	DEBUG	[2147483649] Frame script registered
+1538779394597	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538779394696	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538779394698	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+JavaScript error: resource:///modules/NetErrorContent.jsm, line 417: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIStringBundle.GetStringFromName]
+1538779394725	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for about:neterror?e=nssFailure2&u=https%3A//ip.cn/&c=UTF-8&f=regular&d=The%20connection%20to%20ip.cn%20was%20interrupted%20while%20the%20page%20was%20loading.
+1538779503947	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.1DEwNBbq2OFL"
+
+(firefox:3698): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Failed to execute child process "dbus-launch" (No such file or directory)
+1538779505790	Marionette	INFO	Listening on port 60608
+1538779506070	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538779506111	Marionette	DEBUG	[2147483649] Frame script loaded
+1538779506112	Marionette	DEBUG	[2147483649] Frame script registered
+1538779506144	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538779507301	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538779507306	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1538779507375	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for about:neterror?e=proxyConnectFailure&u=https%3A//ip.cn/&c=UTF-8&f=regular&d=Firefox%20is%20configured%20to%20use%20a%20proxy%20server%20that%20is%20refusing%20connections.
+1538779558487	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.aOwjHJV5YFqU"
+
+(firefox:3947): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Failed to execute child process "dbus-launch" (No such file or directory)
+1538779560349	Marionette	INFO	Listening on port 60642
+1538779560616	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538779560682	Marionette	DEBUG	[2147483649] Frame script loaded
+1538779560688	Marionette	DEBUG	[2147483649] Frame script registered
+1538779560716	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538779560904	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538779560905	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+JavaScript error: resource:///modules/NetErrorContent.jsm, line 417: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIStringBundle.GetStringFromName]
+1538779560972	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for about:neterror?e=nssFailure2&u=https%3A//ip.cn/&c=UTF-8&f=regular&d=The%20connection%20to%20ip.cn%20was%20interrupted%20while%20the%20page%20was%20loading.
+1538779578886	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.lHjzpqmZ6UEj"
+
+(firefox:4196): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Failed to execute child process "dbus-launch" (No such file or directory)
+1538779580844	Marionette	INFO	Listening on port 60664
+1538779580998	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538779581040	Marionette	DEBUG	[2147483649] Frame script loaded
+1538779581046	Marionette	DEBUG	[2147483649] Frame script registered
+1538779581059	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538779622004	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1538779671222	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://ip.cn/
+1538779671253	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://ip.cn/
+1538779671296	Marionette	INFO	Stopped listening on port 60664
+1538779854691	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.VWpRnUrvkCbv"
+
+(firefox:4505): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Failed to execute child process "dbus-launch" (No such file or directory)
+1538779856689	Marionette	INFO	Listening on port 60795
+1538779856811	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538779856857	Marionette	DEBUG	[2147483649] Frame script loaded
+1538779856859	Marionette	DEBUG	[2147483649] Frame script registered
+1538779856888	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538779877909	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538779877911	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1538779877941	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for about:neterror?e=proxyConnectFailure&u=https%3A//ip.cn/&c=UTF-8&f=regular&d=Firefox%20is%20configured%20to%20use%20a%20proxy%20server%20that%20is%20refusing%20connections.
+1538779882091	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.yIjPjJpVEKeA"
+
+(firefox:4750): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Failed to execute child process "dbus-launch" (No such file or directory)
+1538779884185	Marionette	INFO	Listening on port 60817
+1538779884202	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538779884247	Marionette	DEBUG	[2147483649] Frame script loaded
+1538779884249	Marionette	DEBUG	[2147483649] Frame script registered
+1538779884283	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538779885166	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1538779943568	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://ip.cn/
+1538779943576	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://ip.cn/
+1538779943621	Marionette	INFO	Stopped listening on port 60817
+1539904253095	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.TZ8k7ia3uWTi"
+Error: no DISPLAY environment variable specified
+1539904268595	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.cxTmuBS5FbpN"
+Error: no DISPLAY environment variable specified
+1539904318077	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.07L8RKnNkNx9"
+Error: no DISPLAY environment variable specified
+1539904358119	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.yRn8akRjkKIj"
+
+(firefox:84): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Failed to execute child process "dbus-launch" (No such file or directory)
+1539904362006	Marionette	INFO	Listening on port 60679
+1539904362438	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539904362474	Marionette	DEBUG	[2147483649] Frame script loaded
+1539904362475	Marionette	DEBUG	[2147483649] Frame script registered
+1539904362496	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539904449828	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539904449834	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1539904449902	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for about:neterror?e=nssFailure2&u=https%3A//ip.cn/&c=UTF-8&f=regular&d=The%20connection%20to%20the%20server%20was%20reset%20while%20the%20page%20was%20loading.
+1539904538151	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.d0clFhgpgQdL"
+
+(firefox:353): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Failed to execute child process "dbus-launch" (No such file or directory)
+1539904539971	Marionette	INFO	Listening on port 61114
+1539904540265	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539904540301	Marionette	DEBUG	[2147483649] Frame script loaded
+1539904540302	Marionette	DEBUG	[2147483649] Frame script registered
+1539904540327	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539904618930	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539904618934	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1539904618976	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for about:neterror?e=nssFailure2&u=https%3A//ip.cn/&c=UTF-8&f=regular&d=The%20connection%20to%20the%20server%20was%20reset%20while%20the%20page%20was%20loading.
+1539907527630	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.VybbImBTWN1t"
+Error: no DISPLAY environment variable specified
+1539907573202	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.lRTHTmlQOjX5"
+
+(firefox:2103): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Failed to execute child process "dbus-launch" (No such file or directory)
+1539907575208	Marionette	INFO	Listening on port 50686
+1539907575324	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539907575366	Marionette	DEBUG	[2147483649] Frame script loaded
+1539907575366	Marionette	DEBUG	[2147483649] Frame script registered
+1539907575390	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539907655943	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539907655945	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1539907655978	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for about:neterror?e=nssFailure2&u=https%3A//ip.cn/&c=UTF-8&f=regular&d=The%20connection%20to%20the%20server%20was%20reset%20while%20the%20page%20was%20loading.
+1539909694967	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.7Y0GzG5UVLzH"
+
+(firefox:2381): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Failed to execute child process "dbus-launch" (No such file or directory)
+1539909696872	Marionette	INFO	Listening on port 55689
+1539909697085	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539909697140	Marionette	DEBUG	[2147483649] Frame script loaded
+1539909697142	Marionette	DEBUG	[2147483649] Frame script registered
+1539909697157	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539909823920	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539909823921	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+JavaScript error: resource:///modules/NetErrorContent.jsm, line 417: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIStringBundle.GetStringFromName]
+1539909823982	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for about:neterror?e=nssFailure2&u=https%3A//ip.cn/&c=UTF-8&f=regular&d=The%20connection%20to%20ip.cn%20was%20interrupted%20while%20the%20page%20was%20loading.
+1539915434780	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.A2PZTHGhWa9Z"
+
+(firefox:2728): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Failed to execute child process "dbus-launch" (No such file or directory)
+1539915437237	Marionette	INFO	Listening on port 65417
+1539915437520	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539915437569	Marionette	DEBUG	[2147483649] Frame script loaded
+1539915437570	Marionette	DEBUG	[2147483649] Frame script registered
+1539915437586	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539915437606	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539915437609	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1539915437692	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for about:neterror?e=dnsNotFound&u=https%3A//ip.cn/&c=UTF-8&f=regular&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20ip.cn.
+1539915515358	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.VBWKom3XRh6t"
+
+(firefox:2977): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Failed to execute child process "dbus-launch" (No such file or directory)
+1539915517385	Marionette	INFO	Listening on port 49193
+1539915517486	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539915517531	Marionette	DEBUG	[2147483649] Frame script loaded
+1539915517534	Marionette	DEBUG	[2147483649] Frame script registered
+1539915517564	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539915517572	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539915517573	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1539915517604	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for about:neterror?e=dnsNotFound&u=https%3A//ip.cn/&c=UTF-8&f=regular&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20ip.cn.
+1539915536618	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.GwN39Hfg9Ym2"
+
+(firefox:3225): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Failed to execute child process "dbus-launch" (No such file or directory)
+1539915538471	Marionette	INFO	Listening on port 49234
+1539915538744	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539915538783	Marionette	DEBUG	[2147483649] Frame script loaded
+1539915538784	Marionette	DEBUG	[2147483649] Frame script registered
+1539915538796	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539915538835	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539915538837	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1539915538910	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for about:neterror?e=dnsNotFound&u=https%3A//ip.cn/&c=UTF-8&f=regular&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20ip.cn.
+1539915689376	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ODhS3Z9xE8tQ"
+
+(firefox:3570): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Failed to execute child process "dbus-launch" (No such file or directory)
+Redirecting call to abort() to mozalloc_abort
+
+ExceptionHandler::GenerateDump cloned child ExceptionHandler::WaitForContinueSignal waiting for continue signal...
+3724
+ExceptionHandler::SendContinueSignalToChild sent continue signal to child
+1539915749969	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.VPpcQcHBGfO9"
+
+(firefox:3807): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Failed to execute child process "dbus-launch" (No such file or directory)
+1539915751916	Marionette	INFO	Listening on port 49689
+1539915752084	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539915752134	Marionette	DEBUG	[2147483649] Frame script loaded
+1539915752135	Marionette	DEBUG	[2147483649] Frame script registered
+1539915752153	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539915752170	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539915752171	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1539915752204	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for about:neterror?e=dnsNotFound&u=https%3A//ip.cn/&c=UTF-8&f=regular&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20ip.cn.
+1539915800129	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.LYNDrfFfD5Pa"
+
+(firefox:4051): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Failed to execute child process "dbus-launch" (No such file or directory)
+1539915802111	Marionette	INFO	Listening on port 49858
+1539915802241	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539915802284	Marionette	DEBUG	[2147483649] Frame script loaded
+1539915802285	Marionette	DEBUG	[2147483649] Frame script registered
+1539915802314	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539915802331	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539915802334	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1539915802419	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for about:neterror?e=dnsNotFound&u=https%3A//ip.cn/&c=UTF-8&f=regular&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20ip.cn.
+1539915940576	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.nXtwOURolDXu"
+
+(firefox:4323): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Failed to execute child process "dbus-launch" (No such file or directory)
+1539915942587	Marionette	INFO	Listening on port 50129
+1539915942700	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539915942750	Marionette	DEBUG	[2147483649] Frame script loaded
+1539915942754	Marionette	DEBUG	[2147483649] Frame script registered
+1539915942780	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539915942794	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539915942796	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1539915942830	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for about:neterror?e=dnsNotFound&u=https%3A//ip.cn/&c=UTF-8&f=regular&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20ip.cn.
+1539916048567	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.hjAjNNhFYrjz"
+
+(firefox:4579): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Failed to execute child process "dbus-launch" (No such file or directory)
+1539916050647	Marionette	INFO	Listening on port 50349
+1539916050684	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539916050728	Marionette	DEBUG	[2147483649] Frame script loaded
+1539916050735	Marionette	DEBUG	[2147483649] Frame script registered
+1539916050767	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539916050791	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539916050794	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1539916050919	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for about:neterror?e=dnsNotFound&u=https%3A//ip.cn/&c=UTF-8&f=regular&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20ip.cn.
+1539918570666	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Xxl0n9dU2UnS"
+*** You are running in headless mode.
+1539918572365	Marionette	INFO	Listening on port 55276
+1539918572779	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539918572844	Marionette	DEBUG	[2147483649] Frame script loaded
+1539918572857	Marionette	DEBUG	[2147483649] Frame script registered
+1539918572879	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+
+(/usr/lib/firefox/firefox:2212): Gdk-WARNING **: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1079.
+
+
+(/usr/lib/firefox/firefox:2839): Gdk-WARNING **: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1087.
+
+
+(/usr/lib/firefox/firefox:2493): Gdk-WARNING **: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1083.
+
+
+(/usr/lib/firefox/firefox:3917): Gdk-WARNING **: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1103.
+
+
+(/usr/lib/firefox/firefox:3337): Gdk-WARNING **: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1095.
+
+
+(/usr/lib/firefox/firefox:4166): Gdk-WARNING **: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1107.
+
+
+(/usr/lib/firefox/firefox:4003): Gdk-WARNING **: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1103.
+
+
+(/usr/lib/firefox/firefox:4431): Gdk-WARNING **: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1111.
+
+
+(/usr/lib/firefox/firefox:4698): Gdk-WARNING **: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1115.
+
+
+(/usr/lib/firefox/firefox:3094): Gdk-WARNING **: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1091.
+
+
+(/usr/lib/firefox/firefox:3421): Gdk-WARNING **: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1095.
+
+
+(/usr/lib/firefox/firefox:2921): Gdk-WARNING **: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1087.
+
+
+(/usr/lib/firefox/firefox:4257): Gdk-WARNING **: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1107.
+
+
+(/usr/lib/firefox/firefox:4518): Gdk-WARNING **: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1111.
+
+
+(/usr/lib/firefox/firefox:3180): Gdk-WARNING **: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1091.
+
+
+(/usr/lib/firefox/firefox:4786): Gdk-WARNING **: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1115.
+
+
+(/usr/lib/firefox/firefox:2574): Gdk-WARNING **: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1083.
+
+
+(/usr/lib/firefox/firefox:2289): Gdk-WARNING **: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :1079.
+
+1539918668383	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.80I7BF6VEITw"
+*** You are running in headless mode.
+1539918670691	Marionette	INFO	Listening on port 55453
+1539918671102	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539918671176	Marionette	DEBUG	[2147483649] Frame script loaded
+1539918671177	Marionette	DEBUG	[2147483649] Frame script registered
+1539918671230	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539918788816	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.2I4vmNkZ1YI3"
+*** You are running in headless mode.
+1539918791088	Marionette	INFO	Listening on port 55681
+1539918791532	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539918791567	Marionette	DEBUG	[2147483649] Frame script loaded
+1539918791568	Marionette	DEBUG	[2147483649] Frame script registered
+1539918791621	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539918917399	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539918917403	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+JavaScript error: resource:///modules/NetErrorContent.jsm, line 417: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIStringBundle.GetStringFromName]
+1539918917456	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for about:neterror?e=nssFailure2&u=https%3A//ip.cn/&c=UTF-8&f=regular&d=The%20connection%20to%20ip.cn%20was%20interrupted%20while%20the%20page%20was%20loading.
+1539930140167	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.kwK4hAcXCRxE"
+*** You are running in headless mode.
+1539930142380	Marionette	INFO	Listening on port 59063
+1539930142935	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539930142984	Marionette	DEBUG	[2147483649] Frame script loaded
+1539930142985	Marionette	DEBUG	[2147483649] Frame script registered
+1539930143011	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539930144090	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539930144092	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1539930144120	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for about:neterror?e=proxyConnectFailure&u=https%3A//ip.cn/&c=UTF-8&f=regular&d=Firefox%20is%20configured%20to%20use%20a%20proxy%20server%20that%20is%20refusing%20connections.
+1539938418971	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ze2d8FR3dW8q"
+*** You are running in headless mode.
+1539938419405	addons.xpi-utils	WARN	addMetadata: Add-on closeproxyauth.vaka@gmail.com is invalid: Error: Non-restartless extensions no longer supported (resource://gre/modules/addons/XPIInstall.jsm:646:13) JS Stack trace: loadManifestFromRDF@XPIInstall.jsm:646:13
+loadFromRDF@XPIInstall.jsm:786:23
+awaitPromise@XPIProvider.jsm:190:3
+syncLoadManifestFromFile@XPIInstall.jsm:866:10
+addMetadata@XPIDatabase.jsm:2386:21
+processFileChanges@XPIDatabase.jsm:2727:21
+checkForChanges@XPIProvider.jsm:2539:34
+startup@XPIProvider.jsm:2120:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:813:9
+startup@AddonManager.jsm:2811:5
+observe@addonManager.js:66:9
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 2583: TypeError: addon is null
+1539938421237	Marionette	INFO	Listening on port 58468
+1539938421687	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539938421727	Marionette	DEBUG	[2147483649] Frame script loaded
+1539938421728	Marionette	DEBUG	[2147483649] Frame script registered
+1539938421778	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539938422874	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539938422877	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1539938422914	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for about:neterror?e=proxyConnectFailure&u=https%3A//ip.cn/&c=UTF-8&f=regular&d=Firefox%20is%20configured%20to%20use%20a%20proxy%20server%20that%20is%20refusing%20connections.
+1539938679419	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.rxLvFyVIWPk5"
+*** You are running in headless mode.
+1539938679880	addons.xpi-utils	WARN	addMetadata: Add-on closeproxyauth.vaka@gmail.com is invalid: Error: Non-restartless extensions no longer supported (resource://gre/modules/addons/XPIInstall.jsm:646:13) JS Stack trace: loadManifestFromRDF@XPIInstall.jsm:646:13
+loadFromRDF@XPIInstall.jsm:786:23
+awaitPromise@XPIProvider.jsm:190:3
+syncLoadManifestFromFile@XPIInstall.jsm:866:10
+addMetadata@XPIDatabase.jsm:2386:21
+processFileChanges@XPIDatabase.jsm:2727:21
+checkForChanges@XPIProvider.jsm:2539:34
+startup@XPIProvider.jsm:2120:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:813:9
+startup@AddonManager.jsm:2811:5
+observe@addonManager.js:66:9
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 2583: TypeError: addon is null
+1539938681777	Marionette	INFO	Listening on port 58966
+1539938682161	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539938682229	Marionette	DEBUG	[2147483649] Frame script loaded
+1539938682230	Marionette	DEBUG	[2147483649] Frame script registered
+1539938682256	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539938683348	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539938683349	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1539938683398	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for about:neterror?e=proxyConnectFailure&u=https%3A//ip.cn/&c=UTF-8&f=regular&d=Firefox%20is%20configured%20to%20use%20a%20proxy%20server%20that%20is%20refusing%20connections.
+1539938708929	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.8MvAoKqcHxsr"
+Failed to connect to Mir: Failed to connect to server socket: No such file or directory
+Unable to init server: Could not connect: Connection refused
+Error: cannot open display: :1123
+1539938730305	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.aRd0NGwVjAO2"
+Failed to connect to Mir: Failed to connect to server socket: No such file or directory
+Unable to init server: Could not connect: Connection refused
+Error: cannot open display: :1123
+1539938749075	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.RQOCbLz1CdxH"
+Failed to connect to Mir: Failed to connect to server socket: No such file or directory
+Unable to init server: Could not connect: Connection refused
+Error: cannot open display: :1123

@@ -1,5 +1,5 @@
 #!/bin/bash
-pth1=`find / -name ttf`
+pth1=`find ./ -name ttf`
 pth2=${pth1}"/msyh.ttf"
 echo "当前文字目录为：$pth2"
  if [ ! -e "$pth2" ]; then

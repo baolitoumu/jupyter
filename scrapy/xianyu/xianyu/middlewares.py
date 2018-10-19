@@ -21,7 +21,7 @@ from selenium.common.exceptions import TimeoutException
 from xianyu.configs import *
 from chromProxy import *
 
-class ChromeDownloaderMiddleware(object):
+class firefoxDownloaderMiddleware(object):
 
     def __init__(self):
         
@@ -32,24 +32,17 @@ class ChromeDownloaderMiddleware(object):
         
 
         
-        options = webdriver.ChromeOptions()
-        PROXY = "http://HX030NA367CFH6KD:F83B71E29016C7B6@proxy.abuyun.com:9020"
-        desired_capabilities = options.to_capabilities()
-        desired_capabilities['proxy'] = {
-            "httpProxy": PROXY,
-            "ftpProxy": PROXY,
-            "sslProxy": PROXY,
-            "noProxy": None,
-            "proxyType": "MANUAL",
-            "class": "org.openqa.selenium.Proxy",
-            "autodetect": False
-        }
+        firefox_profile = webdriver.FirefoxProfile()
+        proxy_url = "http://HX030NA367CFH6KD:F83B71E29016C7B6@proxy.abuyun.com"
+        proxy_port = '9020'
+        firefox_profile.set_preference("network.proxy.type", 1) # 1代表手动设置
+        firefox_profile.set_preference("network.proxy.share_proxy_settings", True)  # 所有协议公用一种代理配置
+        firefox_profile.set_preference("network.proxy.http", proxy_url)
+        firefox_profile.set_preference("network.proxy.http_port", int(proxy_port))
+        firefox_profile.set_preference("network.proxy.ssl", proxy_url)
+        firefox_profile.set_preference("network.proxy.ssl_port", int(proxy_port))
         #options.add_argument("--proxy-server=http://proxy.baibianip.com:8000")
     
-        options.add_argument('--headless')  
-        options.add_argument('--disable-gpu')  
-        options.add_argument("window-size=1024,768")  
-        options.add_argument("--no-sandbox")  
 
 
         
