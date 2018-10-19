@@ -72,12 +72,24 @@ class example(scrapy.Spider):
             item['proxy_page_url'] = proxy_page_url
             items.append(item)
         for item in items：
+<<<<<<< HEAD
             yield scrapy.Request(url=item['proxy_page_url'],meta={'item_0':item},callback=self.proxy_page_url,dont_filter=True)
+=======
+            return scrapy.Request(url=item['proxy_page_url'],meta={'item_0':item},callback=self.proxy_page_url,dont_filter=True)
+>>>>>>> 843290a5e5ca8e5f0be306af70055232c57c4199
     
         
         
     def proxy_page_url(self):
+<<<<<<< HEAD
         item_1= response.meta['item_0']
         item = XianyuItem()
         contant = response.body.decode('utf-8')
         items = []
+=======
+        item= response.meta['item_0']
+        
+        
+        
+        
+>>>>>>> 843290a5e5ca8e5f0be306af70055232c57c4199

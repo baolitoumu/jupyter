@@ -80,4 +80,14 @@ class example(scrapy.Spider):
         item_1= response.meta['item_0']
         item = XianyuItem()
         contant = response.body.decode('utf-8')
+<<<<<<< HEAD
         items = []
+=======
+        items = []
+        
+        
+        
+        
+        
+        
+>>>>>>> 843290a5e5ca8e5f0be306af70055232c57c4199

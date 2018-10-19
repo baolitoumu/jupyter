@@ -12,7 +12,11 @@ class ProxyItem(scrapy.Item):
     word = scrapy.Field()
     search_url = scrapy.Field()
     page_num = scrapy.Field() 
+<<<<<<< HEAD
     proxy_page_url = scrapy.Field()
+=======
+    city_code = scrapy.Field()
+>>>>>>> 843290a5e5ca8e5f0be306af70055232c57c4199
     city_name = scrapy.Field()
     city_name_province = scrapy.Field()
     firstlevel_title = scrapy.Field()
